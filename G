@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Aventura no Mundo do Stand-up</title>
+</head>
+<body>
+    <main>
+        <!-- Passo 0 -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/comediante-passo0.png" alt="Comediante em palco">
+            <p>Você gosta de comédia stand-up?</p>
+            <button class="btn-proximo" data-proximo="1">Sim</button>
+            <button class="btn-proximo" data-proximo="2">Não</button>
+        </div>
+
+        <!-- Passo 1 -->
+        <div class="passo" id="passo-1">
+            <p>Quem é o seu comediante favorito?</p>
+            <button class="btn-proximo" data-proximo="3">Afonso Padilha</button>
+            <button class="btn-proximo" data-proximo="4">Whindersson Nunes</button>
+            <button class="btn-proximo" data-proximo="5">Outro</button>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="passo" id="passo-2">
+            <p>Por que você não gosta de stand-up?</p>
+            <button class="btn-proximo" data-proximo="6">Não entendo as piadas</button>
+            <button class="btn-proximo" data-proximo="7">Não faz meu estilo</button>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="passo" id="passo-3">
+            <p>Afonso Padilha é ótimo! Qual é a sua piada preferida dele?</p>
+            <button class="btn-proximo" data-proximo="8">Família</button>
+            <button class="btn-proximo" data-proximo="9">Relacionamentos</button>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="passo" id="passo-4">
+            <p>Whindersson Nunes é incrível! Você já assistiu ao especial dele no streaming?</p>
+            <button class="btn-proximo" data-proximo="8">Sim</button>
+            <button class="btn-proximo" data-proximo="9">Ainda não</button>
+        </div>
+
+        <!-- Passo 5 -->
+        <div class="passo" id="passo-5">
+            <p>Que tal explorar novos comediantes brasileiros? Dê uma chance a Barbixas ou 4 Amigos!</p>
+            <button class="btn-proximo" data-proximo="8">Vou tentar!</button>
+            <button class="btn-proximo" data-proximo="9">Prefiro internacionais</button>
+        </div>
+
+        <!-- Passo 6 -->
+        <div class="passo" id="passo-6">
+            <p>Que tal começar com shows legendados? A comédia pode ser mais clara assim!</p>
+            <button class="btn-proximo" data-proximo="10">Boa ideia</button>
+        </div>
+
+        <!-- Passo 7 -->
+        <div class="passo" id="passo-7">
+            <img src="img/desistir-aventura.png" alt="Voltando para casa">
+            <p>Você decide que stand-up não é sua praia. Quem sabe outra aventura no futuro!</p>
+        </div>
+
+        <!-- Passo 8 -->
+        <div class="passo" id="passo-8">
+            <p>Que ótimo! Agora, qual tipo de humor você mais gosta?</p>
+            <button class="btn-proximo" data-proximo="11">Humor ácido</button>
+            <button class="btn-proximo" data-proximo="12">Humor leve e cotidiano</button>
+        </div>
+
+        <!-- Passo 9 -->
+        <div class="passo" id="passo-9">
+            <p>Humor leve é perfeito para relaxar! Continue explorando novos shows de stand-up!</p>
+        </div>
+
+        <!-- Passo 10 -->
+        <div class="passo" id="passo-10">
+            <p>Boa escolha! Comediantes internacionais também têm muito a oferecer.</p>
+        </div>
+
+        <!-- Passo 11 -->
+        <div class="passo" id="passo-11">
+            <img src="img/final-feliz.png" alt="Cena de um show de stand-up">
+            <p>Você encontrou o seu estilo de humor! Divirta-se e espalhe risadas pelo mundo.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
